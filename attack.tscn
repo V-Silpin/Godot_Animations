@@ -1,0 +1,32 @@
+[gd_scene load_steps=6 format=3 uid="uid://ding4ex1gtw1f"]
+
+[ext_resource type="Texture2D" uid="uid://b2lc2xwbu5moc" path="res://data/Altan_W/Altan_W_[Fight]/1.png" id="1_rjtwi"]
+[ext_resource type="Texture2D" uid="uid://chcdpsdpnveou" path="res://data/Altan_W/Altan_W_[Fight]/2.png" id="2_tmb4p"]
+[ext_resource type="Texture2D" uid="uid://c71angbtd8pff" path="res://data/Altan_W/Altan_W_[Fight]/3.png" id="3_13yeo"]
+[ext_resource type="Texture2D" uid="uid://bxo8nc2ymmfql" path="res://data/Altan_W/Altan_W_[Fight]/4.png" id="4_flohm"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ukfra"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_rjtwi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_tmb4p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_13yeo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_flohm")
+}],
+"loop": true,
+"name": &"default",
+"speed": 4.0
+}]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_ukfra")
+frame = 3
+frame_progress = 0.518517

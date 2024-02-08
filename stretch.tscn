@@ -1,0 +1,52 @@
+[gd_scene load_steps=11 format=3 uid="uid://cd1perjyab61o"]
+
+[ext_resource type="Texture2D" uid="uid://u1wcn1ef36o" path="res://data/Altan_W/Altan_W_[Stretch]/1.png" id="1_ci010"]
+[ext_resource type="Texture2D" uid="uid://bguowiw5c0d6d" path="res://data/Altan_W/Altan_W_[Stretch]/2.png" id="2_miv6i"]
+[ext_resource type="Texture2D" uid="uid://bo4oxfjfnpkt1" path="res://data/Altan_W/Altan_W_[Stretch]/3.png" id="3_iwq2g"]
+[ext_resource type="Texture2D" uid="uid://c5cqar8paq34p" path="res://data/Altan_W/Altan_W_[Stretch]/4.png" id="4_qq0jg"]
+[ext_resource type="Texture2D" uid="uid://c41xvbsoj7dgk" path="res://data/Altan_W/Altan_W_[Stretch]/5.png" id="5_sq3i8"]
+[ext_resource type="Texture2D" uid="uid://bjwuuprwreh40" path="res://data/Altan_W/Altan_W_[Stretch]/6.png" id="6_8umoy"]
+[ext_resource type="Texture2D" uid="uid://b2uul5coi1rga" path="res://data/Altan_W/Altan_W_[Stretch]/7.png" id="7_ho5vk"]
+[ext_resource type="Texture2D" uid="uid://i2u58b2y4782" path="res://data/Altan_W/Altan_W_[Stretch]/8.png" id="8_pvy3w"]
+[ext_resource type="Texture2D" uid="uid://dj3xuysb56xpi" path="res://data/Altan_W/Altan_W_[Stretch]/9.png" id="9_575ul"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wph0y"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ci010")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_miv6i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_iwq2g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_qq0jg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_sq3i8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_8umoy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_ho5vk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_pvy3w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_575ul")
+}],
+"loop": true,
+"name": &"default",
+"speed": 13.0
+}]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_wph0y")
+frame = 4
+frame_progress = 0.114051
